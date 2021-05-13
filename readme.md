@@ -4,9 +4,9 @@ Disables Google's FLoC tracking for your website's visitors by adding a 'Permiss
 
 More information about FLoC:
 
-[What is Federated Learning of Cohorts (FLoC)?](https://web.dev/floc/)
-[Federated Learning of Cohorts (FLoC)](https://github.com/WICG/floc)
-[Google’s FLoC Is a Terrible Idea](https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea)
+- [What is Federated Learning of Cohorts (FLoC)?](https://web.dev/floc/)
+- [Federated Learning of Cohorts (FLoC)](https://github.com/WICG/floc)
+- [Google’s FLoC Is a Terrible Idea](https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea)
 
 ## Installation
 
@@ -15,6 +15,7 @@ More information about FLoC:
 - `composer require bvdputte/kirby-floc-off`
 
 That's it. The plugin is already functional and activated and should exclude your website from FLoC tracking.
+If an existing header is already been set for `Permissions-Policy`, it won't be overwritten by this plugin.
 
 ## Usage
 

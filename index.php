@@ -11,7 +11,7 @@
     'hooks' => [
         'route:before' => function (): void {
             if (option('bvdputte.flocoff.enabled')) {
-                header('Permissions-Policy: interest-cohort=()');
+                kirby()->response()->header('Permissions-Policy', 'interest-cohort=()', true);
             }
         }
     ]
