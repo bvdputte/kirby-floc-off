@@ -1,0 +1,25 @@
+
+{
+    "name": "bvdputte/kirby-floc-off",
+    "description": "kirby 3 plugin - Disable Google's FLoC tracking",
+    "license": "MIT",
+    "type": "kirby-plugin",
+    "authors": [
+        {
+            "name": "Bart Vandeputte",
+            "email": "mail@bartvandeputte.be"
+        }
+    ],
+    "keywords": [
+        "kirby3",
+        "kirby3-plugin",
+        "FLoC",
+        "privacy"
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.1"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
